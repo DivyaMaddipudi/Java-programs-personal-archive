@@ -29,7 +29,7 @@ public class P003 {
 	public static boolean isPrime(long num) {
 		boolean isPrime = false;
 		int count = 0;
-		for(long i=1;i<=num/2;i=i+2) {
+		for(long i=1;i<=num/2;i++) {
 			if(num%i == 0) {
 				count++;
 			}
