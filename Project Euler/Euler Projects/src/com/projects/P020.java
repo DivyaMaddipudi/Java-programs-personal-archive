@@ -24,7 +24,6 @@ public class P020 {
 		}
 		System.out.println(sum);
 	}
-	
 	public static BigInteger factorial(int num) {
 		BigInteger factorialValue = BigInteger.ONE;
 		for(int i=1;i<=num;i++) {
@@ -33,5 +32,4 @@ public class P020 {
 		}
 		return factorialValue;
 	}
-
 }
