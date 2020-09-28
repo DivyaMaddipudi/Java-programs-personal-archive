@@ -14,14 +14,12 @@ package com.projects;
 public class P021 {
 
 	public static void main(String[] args) {
-		
+
 		long sumOfAmicablePairs = 0;
 		for (long i = 1; i < 10000; i++) {
 			long val = sumOfDivisors(i);
-			if (sumOfDivisors(i) == val && sumOfDivisors(val) == i && i!=val) {
+			if (sumOfDivisors(i) == val && sumOfDivisors(val) == i && i != val) {
 				sumOfAmicablePairs = sumOfAmicablePairs + i;
-				System.out.println(i);
-				//System.out.println(i);
 			}
 		}
 		System.out.println(sumOfAmicablePairs);
